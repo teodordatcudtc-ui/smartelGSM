@@ -68,12 +68,13 @@ export default function Home() {
         <div className="container-custom section-padding relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Content Left */}
-            <div className="text-left animate-fade-in-up">
+            <div className="text-center md:text-left animate-fade-in-up">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white leading-tight">
                 Service GSM București pentru <span className="text-primary">orice model</span> de telefon
               </h1>
               <p className="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed">
-                Service GSM București, specializat în reparații telefoane pentru orice model. Echipa noastră efectuează orice tip de reparație, inclusiv înlocuiri de ecrane sparte, baterii defecte și probleme hardware complexe.
+                <span className="block md:hidden">Service GSM București, specializat în reparații telefoane pentru orice model.</span>
+                <span className="hidden md:block">Service GSM București, specializat în reparații telefoane pentru orice model. Echipa noastră efectuează orice tip de reparație, inclusiv înlocuiri de ecrane sparte, baterii defecte și probleme hardware complexe.</span>
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href="tel:0771145335" className="bg-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-dark transition-all duration-300 text-base text-center">
